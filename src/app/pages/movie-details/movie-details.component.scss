@@ -1,0 +1,38 @@
+$color_1: #ffffff;
+$background-color_1: #E50914;
+
+p.overview {
+  max-width: 85%;
+  font-size: 21px;
+}
+.star {
+  font-size: 24px;
+  margin-right: 2px;
+
+  &.gold {
+    color: gold;
+  }
+
+  &.grey {
+    color: grey;
+  }
+}
+
+
+img {
+  width: 100%;
+  height: auto;
+}
+h1 {
+  color: $color_1;
+  font-weight: bold;
+}
+p {
+  color: $color_1;
+}
+a {
+  &:hover {
+    background-color: $background-color_1;
+  }
+}
+
